@@ -15,7 +15,7 @@ public class DevopsWarApplication extends SpringBootServletInitializer {
 	@RequestMapping("/home")
 	public String info()
 	{
-		return"<h1 align=center> Merci GK, Devops c'est Top</h1>";
+		return"<h1 align=center> Merci GK, Devops c'est Top, Maintenant voyons Docker</h1>";
 	}
 
 	public static void main(String[] args) {
